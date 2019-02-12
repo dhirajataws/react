@@ -15,8 +15,11 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  background-color: black;
   min-height: inherit;
   color: white;
   padding: 0 5px;
+}
+
+.App-active-navlink {
+  background-color: black;
 }

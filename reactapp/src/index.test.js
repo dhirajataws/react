@@ -6,7 +6,6 @@ import ProviderWeb from '.';
 
 it('provider renders store ', () => {
     let providerWeb = mount(<ProviderWeb />);
-    console.log(providerWeb.debug())
     const isReduxProvider = providerWeb.find(ProviderWeb).find('Provider');
     expect(isReduxProvider).toHaveLength(1);
 }); 
